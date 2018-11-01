@@ -1,0 +1,3 @@
+INSERT INTO form (organization_name, contact_name, phone_number, email, event_name, event_date, event_time, speaker_request, arrival_time, event_location, event_description, event_topic, presentation_length, presentation_time, presentation_comments, airport, airport_transportation, lodging, lodging_location, travel_expenses, reimbursement_receipts, bio, img, w2, request_date)
+VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, now())
+RETURNING *;

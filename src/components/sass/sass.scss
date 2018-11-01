@@ -1,0 +1,11 @@
+$margin: 16px;
+
+.sass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 2em;
+        margin: $margin /2; padding: $margin;
+    }
+}

@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import './home.css';
 
 class home extends Component {
   state = {
-    nav: ['Home', 'CSS', 'Sass', 'Styled Components', 'CSS in JS'],
+    nav: ['CSS', 'Sass', 'Styled', 'Inline'],
     author: [
       {
         name: 'Tim Biles',
@@ -44,7 +44,7 @@ class home extends Component {
       );
     });
     return (
-      <Fragment>
+      <>
         <header className="home_header">
           <section>
             <div>
@@ -72,7 +72,7 @@ class home extends Component {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, unde! Consequatur consequuntur, asperiores reprehenderit itaque cumque esse dolorum accusamus incidunt. Odit facere eligendi ullam similique fugit, beatae dolores velit laboriosam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis commodi et minima, beatae quos consectetur error nihil voluptates nostrum quaerat molestias maiores, tenetur in modi vitae minus a tempore expedita.</p>
             </article>
         </main>
-      </Fragment>
+      </>
     );
   }
 }

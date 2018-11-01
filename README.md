@@ -17,6 +17,17 @@
 
 #### Disadvantages
 
+#### .sass vs .scss
+    - .scss is written identical to .css
+    - .sass written in different lines, must have indention.
+
 ## Styled Components
 
-## CSS in JS
+#### Advantages
+    - interaction with Js file
+
+#### Disadvantages
+    - 
+
+## Inline
+    - Don't do it. 
