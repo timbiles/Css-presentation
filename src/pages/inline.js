@@ -8,8 +8,8 @@ class inline extends Component {
     render() {
         return (
             <>
-                <h1 style={{color: 'green', fontSize: '4em'}}>CssInJs</h1>
-                <p style={text}>Test</p>
+                <h1 style={{color: 'green', fontSize: '4em'}}>Inline Styles</h1>
+                <p style={text}>Plz don't do it</p>
             </>
         );
     }

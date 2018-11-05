@@ -6,7 +6,7 @@ import {Spinner} from '../styles/animations';
 
 class styles extends Component {
   state = {
-    nav: ['CSS', 'Sass', 'Styled', 'Inline'],
+    nav: ['CSS', 'Sass', 'Modules', 'Styled', 'Inline'],
     author: [
       {
         name: 'Tim Biles',

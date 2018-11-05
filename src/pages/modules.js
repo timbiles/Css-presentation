@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import styles from '../modules/modules.module.css';
 
-import './sass.scss';
-
-class sass extends Component {
+class modules extends Component {
   state = {
     nav: ['CSS', 'Sass', 'Modules', 'Styled', 'Inline'],
     author: [
@@ -17,6 +16,7 @@ class sass extends Component {
     ]
   };
   render() {
+      console.log(styles)
     const { nav, author } = this.state;
     const navMap = nav.map((e, i) => {
       return (
@@ -28,7 +28,7 @@ class sass extends Component {
 
     const profileMap = author.map((e,i) => {
       return (
-        <figure key={i} className="sass_prof">
+        <figure key={i} className={styles.profile}>
           <img src={e.img} alt="Bio pic" />
           <aside>
             <div>
@@ -45,7 +45,7 @@ class sass extends Component {
     });
     return (
       <>
-        <header className="sass_header">
+        <header className={styles.home_header}>
           <section>
             <div>
               <h2>M</h2>
@@ -62,7 +62,7 @@ class sass extends Component {
           </section>
           <section>{navMap}</section>
         </header>
-        <main className="sass_main">{profileMap}
+        <main className={styles.home_main}>{profileMap}
             <article>
                 <h1>Styling with CSS</h1>
                 <p>Originally published on {author.date} - Last updated never.</p>
@@ -77,4 +77,4 @@ class sass extends Component {
   }
 }
 
-export default sass;
+export default modules;

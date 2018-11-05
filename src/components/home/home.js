@@ -5,7 +5,7 @@ import './home.css';
 
 class home extends Component {
   state = {
-    nav: ['CSS', 'Sass', 'Styled', 'Inline'],
+    nav: ['CSS', 'Sass', 'Modules', 'Styled', 'Inline'],
     author: [
       {
         name: 'Tim Biles',
@@ -26,9 +26,9 @@ class home extends Component {
       );
     });
 
-    const profileMap = author.map(e => {
+    const profileMap = author.map((e,i) => {
       return (
-        <figure className="profile">
+        <figure key={i} className="profile">
           <img src={e.img} alt="Bio pic" />
           <aside>
             <div>
