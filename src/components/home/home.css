@@ -51,11 +51,6 @@
     font-size: .8em;
 }
 
-.home_main {
-    display: flex;
-    justify-content: center;
-}
-
 .profile {
     display: flex;
     justify-content: center;
@@ -97,6 +92,7 @@
 .home_main {
     display: flex;
     flex-direction: column;
+    justify-content: center;    
     align-items: center;
 }
 
