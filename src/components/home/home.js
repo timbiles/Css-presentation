@@ -26,7 +26,7 @@ class home extends Component {
       );
     });
 
-    const profileMap = author.map((e,i) => {
+    const profileMap = author.map((e, i) => {
       return (
         <figure key={i} className="profile">
           <img src={e.img} alt="Bio pic" />
@@ -62,15 +62,46 @@ class home extends Component {
           </section>
           <section>{navMap}</section>
         </header>
-        <main className="home_main">{profileMap}
-            <article>
-                <h1>Styling with CSS</h1>
-                <p>Originally published on {author.date} - Last updated never.</p>
-                <h1>Intro</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum inventore, fugiat vitae nobis, omnis commodi nisi non voluptatum dicta ipsum! Illo porro doloremque vitae incidunt eos odio eligendi quis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime obcaecati aliquid itaque voluptas molestiae illo nisi accusantium amet incidunt! Non explicabo dolore sunt quidem totam minima vitae nesciunt quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi hic nobis qui consectetur, voluptate nostrum possimus laboriosam modi asperiores similique ducimus ipsum veniam, at totam quis eaque est? Sunt, consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, corrupti aliquid aspernatur saepe vero rem temporibus eum quibusdam dignissimos ullam officia placeat inventore dolorem quaerat esse error, animi, distinctio excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, tempore cupiditate, repellendus ratione reiciendis assumenda mollitia harum nostrum rem excepturi eaque nesciunt quae necessitatibus! Harum quos quae sequi laudantium nesciunt?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, unde! Consequatur consequuntur, asperiores reprehenderit itaque cumque esse dolorum accusamus incidunt. Odit facere eligendi ullam similique fugit, beatae dolores velit laboriosam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis commodi et minima, beatae quos consectetur error nihil voluptates nostrum quaerat molestias maiores, tenetur in modi vitae minus a tempore expedita.</p>
-            </article>
+        <main className="home_main">
+          {profileMap}
+          <article>
+            <h1>Styling with CSS</h1>
+            <p>Originally published on {author.date} - Last updated never.</p>
+            <h1>Intro</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              rerum inventore, fugiat vitae nobis, omnis commodi nisi non
+              voluptatum dicta ipsum! Illo porro doloremque vitae incidunt eos
+              odio eligendi quis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              maxime obcaecati aliquid itaque voluptas molestiae illo nisi
+              accusantium amet incidunt! Non explicabo dolore sunt quidem totam
+              minima vitae nesciunt quibusdam. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Sequi hic nobis qui consectetur,
+              voluptate nostrum possimus laboriosam modi asperiores similique
+              ducimus ipsum veniam, at totam quis eaque est? Sunt, consequuntur!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              corrupti aliquid aspernatur saepe vero rem temporibus eum
+              quibusdam dignissimos ullam officia placeat inventore dolorem
+              quaerat esse error, animi, distinctio excepturi. Lorem ipsum,
+              dolor sit amet consectetur adipisicing elit. Veritatis, tempore
+              cupiditate, repellendus ratione reiciendis assumenda mollitia
+              harum nostrum rem excepturi eaque nesciunt quae necessitatibus!
+              Harum quos quae sequi laudantium nesciunt?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, unde! Consequatur consequuntur, asperiores
+              reprehenderit itaque cumque esse dolorum accusamus incidunt. Odit
+              facere eligendi ullam similique fugit, beatae dolores velit
+              laboriosam! Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Officiis commodi et minima, beatae quos consectetur error
+              nihil voluptates nostrum quaerat molestias maiores, tenetur in
+              modi vitae minus a tempore expedita.
+            </p>
+          </article>
         </main>
       </>
     );
