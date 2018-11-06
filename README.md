@@ -7,11 +7,12 @@ Different style variations on the the same page. This is meant as a comparison o
 4. **[Styled Components](#Styled Components)**
 5. **[Inline](#Inline)**
 6. **[Style Guidelines](#Style-Guidelines)**
+6. **[Further Reading](#Further-Reading)**
 
 
 ## CSS
 
-#### Syntax
+### Syntax
     - Define variables (accessible in any file)
     ```
 :root {
@@ -45,7 +46,7 @@ Different style variations on the the same page. This is meant as a comparison o
 
 ## SASS (Preprocessor)
 
-#### Syntax
+### Syntax
     An extention of CSS. CSS-compatable syntax.
     Offers Features not available in plain CSS.
 
@@ -119,6 +120,7 @@ nav {
     - Large community
     - Nesting for better organization.
     - Use of mixins
+    - Dry code
     - Commenting in Sass is SO MUCH BETTER THAN CSS
 
 #### Disadvantages
@@ -133,6 +135,14 @@ nav {
     - Less syntax is identical, minor differences.
     - Stylus syntax does not use curly braces of semi-colons.
     - Both share syntax with CSS.
+
+### Resources
+
+#### Sass Guidelines
+    https://sass-guidelin.es/
+
+#### Sass best practices
+    https://medium.com/@mciastek/s-css-best-practices-that-you-have-not-yet-known-ba2f6329b5dd
 
 ## CSS Modules
 
@@ -159,13 +169,21 @@ import styles from '../modules.module.css';
 #### Disadvantages
     - Still in separate files.
     - No reusable styles between pages/components
+
+### Resources
+
+#### CSS Modules By Example
+    https://www.javascriptstuff.com/css-modules-by-example/
+
+#### Getting started with CSS Modules
+    https://blog.pusher.com/css-modules-react/
     
 
 ## Styled Components
 
     CSS in JS is regarded as a better way to style components in React. With Styled Components, CSS syntax stays the same with a few set-up adjustments.
 
-#### Syntax
+### Syntax
 
     - Install styled-components
     - import ...
@@ -270,7 +288,7 @@ export const Wrapper. . .
     Don't forget to import styles in the top of that javascript file.
 
 #### Advantages
-    - interaction with Js file
+    - Interaction with Js file
     - Reusability, can change depending on props.
     - Removes the overuse of classNames, removing name conflicts.
     - Removing Style sheet saves on performance (if kept in one file)
@@ -278,7 +296,41 @@ export const Wrapper. . .
 #### Disadvantages
     - Syntax is almost identical to CSS, but flow of logic needs to be learned.
 
+
+### Resources
+
+#### Documentation
+    https://www.styled-components.com/
+
+#### 5 minute intro to Styled Components
+    https://medium.freecodecamp.org/a-5-minute-intro-to-styled-components-41f40eb7cd55
+
+#### Styled Components in Action
+    https://hackernoon.com/styled-components-in-action-723852f2a93d
+
+
 ## Inline
     - Don't do it. 
 
 ## Style Guidelines
+
+#### Material Design
+    https://material.io/design/layout/understanding-layout.html#
+
+#### Style Guides.io
+    http://styleguides.io/
+
+#### CSS High-level guidelines
+    https://cssguidelin.es/
+
+
+## Further Reading
+
+#### B.E.M 
+    Block Element Modifier
+    http://getbem.com/
+
+#### Less
+    http://lesscss.org/
+#### Stylus
+    http://stylus-lang.com/
