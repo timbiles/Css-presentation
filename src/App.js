@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+        <p className='whatup'>Whats up</p>
           <Switch>
             <Route path="/styled" component={Styled} />
             <Route path="/sass" component={Sass} />
