@@ -16,7 +16,8 @@ Different style variations on the the same page. This is meant as a comparison o
 Define variables (accessible in any file)
     
 
-```:root {
+```
+:root {
     --header-color: #05FF01;
     --header-font: #015900;
 }
@@ -25,7 +26,8 @@ Define variables (accessible in any file)
   - CSS Shorthand
     
 
-``` font-style: italic;
+```
+    font-style: italic;
     font-weight: bold;
     font-size: .8em;
     line-height: 1.2;
@@ -58,7 +60,8 @@ Define variables (accessible in any file)
 
    - Define Variables (accessible in current file)
    
-```$headerColor: #05ff01;
+```
+$headerColor: #05ff01;
 
 nav {
     background: $headerColor;
@@ -67,7 +70,8 @@ nav {
 
 
    - Nest inside selectors
-```.header {
+```
+.header {
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -153,12 +157,14 @@ nav {
    - Create styles file (make sure to append .module.css to the end)
    - import files as ...
     
-```import styles from '../modules.module.css';
+```js
+import styles from '../modules.module.css';
 ```
 
    - Call the classNames in curly braces as ...
     
-```<div className={styles.header}>
+```js
+<div className={styles.header}>
 </div>
 ```
 
