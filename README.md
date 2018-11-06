@@ -3,8 +3,8 @@ Different style variations on the the same page. This is meant as a comparison o
 
 1. **[CSS](#CSS)**
 2. **[SASS](#SASS)**
-3. **[CSS Modules](#CSS Modules)**
-4. **[Styled Components](#Styled Components)**
+3. **[CSS Modules](#CSS-Modules)**
+4. **[Styled Components](#Styled-Components)**
 5. **[Inline](#Inline)**
 6. **[Style Guidelines](#Style-Guidelines)**
 
@@ -13,24 +13,25 @@ Different style variations on the the same page. This is meant as a comparison o
 
 #### Syntax
     - Define variables (accessible in any file)
-    ```
+    
+```
 :root {
     --header-color: #05FF01;
     --header-font: #015900;
 }
-    ```
+```
     - CSS Shorthand
-    ```
+```
     font-style: italic;
     font-weight: bold;
     font-size: .8em;
     line-height: 1.2;
     font-family: Arial, sans-serif;
-    ```
+```
     This can be shortened to ...
-    ```
+```
     font: italic bold .8em/1.2 Arial, sans-serif;
-    ```
+```
 
 #### Advantages
     - Nothing new. For most developers, it is how they learned first.
@@ -53,17 +54,17 @@ Different style variations on the the same page. This is meant as a comparison o
     - append .scss to the stylesheet.
 
     - Define Variables (accessible in current file)
-    ```
+```
 $headerColor: #05ff01;
 
 nav {
     background: $headerColor;
 }
-    ```
+```
 
 
     - Nest inside selectors
-    ```
+```
 .header {
   display: flex;
   justify-content: center;
@@ -79,11 +80,11 @@ nav {
       width: 15vw;
   }
 }
-    ```
+```
     Though this does not really condense the file, it makes for much better organization.
 
     - Mixins
-    ```
+```
 @mixin flex {
   display: flex;
   align-items: center;
@@ -92,7 +93,7 @@ nav {
 .nav {
   @include flex;
 }
-    ```
+```
     If you have repetative combinations, this can save you time. You can also pass in arguments. 
 
 ```
@@ -140,10 +141,13 @@ nav {
 
     - Create styles file (make sure to append .module.css to the end)
     - import files as ...
+    
 ```
 import styles from '../modules.module.css';
 ```
+
     - call the classNames in curly braces as ...
+    
 ```
 <div className={styles.header}>
 </div>
