@@ -191,11 +191,13 @@ nav {
    - Install styled-components
    - import ...
    
-```import styled from 'styled-components';
+```js
+import styled from 'styled-components';
 ```
    If keyframes of css is needed, destructure that like ...
    
-```import styled, { keyframes } from 'styled-components';
+```js
+import styled, { keyframes } from 'styled-components';
 ```
 
    - Create a Component. use styled. whatever you are creating (div, p, h2, span). Wrap the CSS in back-ticks (Written exactly the same as CSS here)
