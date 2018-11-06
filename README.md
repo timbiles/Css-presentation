@@ -1,5 +1,5 @@
 # Styling Presentation
-Different style variations on the the same page. This is meant as a comparison of styles for javascript developing.
+Different style variations on the the same page. This is meant as a comparison of styles for javascript development.
 
 1. **[CSS](#CSS)**
 2. **[SASS](#SASS)**

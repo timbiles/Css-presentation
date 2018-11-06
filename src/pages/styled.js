@@ -18,7 +18,7 @@ class styles extends Component {
     ]
   };
   render() {
-    const { nav, author } = this.state;
+    const { nav } = this.state;
     const navMap = nav.map((e, i) => {
       return (
         <Link key={i} to={e === 'CSS' ? '/' : `/${e}`}>
