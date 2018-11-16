@@ -1,2 +1,0 @@
-DELETE FROM form
-WHERE id = $1;

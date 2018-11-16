@@ -1,5 +1,5 @@
 # Styling Presentation
-Different style variations on the the same page. This is meant as a comparison of styles for javascript development.
+Different style variations on the same page. This is meant as a comparison of styles for javascript development.
 
 1. **[CSS](#CSS)**
 2. **[SASS](#SASS)**
@@ -7,7 +7,8 @@ Different style variations on the the same page. This is meant as a comparison o
 4. **[Styled Components](#Styled-Components)**
 5. **[Inline](#Inline)**
 6. **[Style Guidelines](#Style-Guidelines)**
-6. **[Further Reading](#Further-Reading)**
+7. **[Interview Prep](#CSS-Interview-Prep)**
+8. **[Further Reading](#Further-Reading)**
 
 
 ## CSS
@@ -337,6 +338,17 @@ export const Wrapper. . .
 
 #### CSS High-level guidelines
    https://cssguidelin.es/
+
+
+## CSS Interview Prep
+
+#### 20 Most Helpful CSS Interview Questions
+    https://www.goskills.com/Development/Articles/CSS-interview-questions-answers
+#### 5 Essential CSS Interview Questions
+    https://www.toptal.com/css/interview-questions
+#### CSS Interview Questions
+    https://www.tutorialspoint.com/css/css_interview_questions.htm
+
 
 
 ## Further Reading
