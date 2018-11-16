@@ -2,7 +2,7 @@
 Different style variations on the same page. This is meant as a comparison of styles for javascript development.
 
 1. **[CSS](#CSS)**
-2. **[SASS](#SASS)**
+2. **[SASS](#SASS---Preprocessor)**
 3. **[CSS Modules](#CSS-Modules)**
 4. **[Styled Components](#Styled-Components)**
 5. **[Inline](#Inline)**
@@ -50,7 +50,7 @@ Define variables (accessible in any file)
    - No interaction with Javascript. 
    - Can easily be cluttered.
 
-## SASS (Preprocessor)
+## SASS - Preprocessor
 
 ### Syntax
    An extention of CSS. CSS-compatable syntax.
