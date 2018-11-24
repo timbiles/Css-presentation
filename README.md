@@ -50,7 +50,11 @@ Define variables (accessible in any file)
    - No interaction with Javascript. 
    - Can easily be cluttered.
 
+<<<<<<< HEAD
 ## SASS - Preprocessor
+=======
+## SASS
+>>>>>>> 9d78af08a1edfee2030a5134ef009caff9bc774a
 
 ### Syntax
    An extention of CSS. CSS-compatable syntax.
@@ -343,11 +347,11 @@ export const Wrapper. . .
 ## CSS Interview Prep
 
 #### 20 Most Helpful CSS Interview Questions
-    https://www.goskills.com/Development/Articles/CSS-interview-questions-answers
+   https://www.goskills.com/Development/Articles/CSS-interview-questions-answers
 #### 5 Essential CSS Interview Questions
-    https://www.toptal.com/css/interview-questions
+   https://www.toptal.com/css/interview-questions
 #### CSS Interview Questions
-    https://www.tutorialspoint.com/css/css_interview_questions.htm
+   https://www.tutorialspoint.com/css/css_interview_questions.htm
 
 
 
