@@ -5,10 +5,11 @@ Different style variations on the same page. This is meant as a comparison of st
 2. **[SASS](#SASS---Preprocessor)**
 3. **[CSS Modules](#CSS-Modules)**
 4. **[Styled Components](#Styled-Components)**
-5. **[Inline](#Inline)**
-6. **[Style Guidelines](#Style-Guidelines)**
-7. **[Interview Prep](#CSS-Interview-Prep)**
-8. **[Further Reading](#Further-Reading)**
+5. **[CSS in JS](#CSS-in-JS)**
+6. **[Inline](#Inline)**
+7. **[Style Guidelines](#Style-Guidelines)**
+8. **[Interview Prep](#CSS-Interview-Prep)**
+9. **[Further Reading](#Further-Reading)**
 
 
 ## CSS
@@ -316,6 +317,23 @@ export const Wrapper. . .
 #### Disadvantages
    - Syntax is almost identical to CSS, but flow of logic needs to be learned.
 
+## CSS in JS
+
+### 1. JSS
+
+#### Docs
+    https://cssinjs.org/?v=v9.8.7
+
+#### JSS with React
+    https://medium.com/jobsity/css-in-javascript-with-jss-and-react-54cdd2720222
+
+### 2. Glamorous
+
+#### Docs
+    https://glamorous.rocks/
+
+#### React with Glamorous
+    https://alligator.io/react/glamorous/
 
 ### Resources
 
