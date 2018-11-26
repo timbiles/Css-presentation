@@ -317,24 +317,6 @@ export const Wrapper. . .
 #### Disadvantages
    - Syntax is almost identical to CSS, but flow of logic needs to be learned.
 
-## CSS in JS
-
-### 1. JSS
-
-#### Docs
-    https://cssinjs.org/?v=v9.8.7
-
-#### JSS with React
-    https://medium.com/jobsity/css-in-javascript-with-jss-and-react-54cdd2720222
-
-### 2. Glamorous
-
-#### Docs
-    https://glamorous.rocks/
-
-#### React with Glamorous
-    https://alligator.io/react/glamorous/
-
 ### Resources
 
 #### Documentation
@@ -345,6 +327,24 @@ export const Wrapper. . .
 
 #### Styled Components in Action
    https://hackernoon.com/styled-components-in-action-723852f2a93d
+
+## CSS in JS
+
+### 1. JSS
+
+#### Docs
+https://cssinjs.org/?v=v9.8.7
+
+#### JSS with React
+https://medium.com/jobsity/css-in-javascript-with-jss-and-react-54cdd2720222
+
+### 2. Glamorous
+
+#### Docs
+https://glamorous.rocks/
+
+#### React with Glamorous
+https://alligator.io/react/glamorous/
 
 
 ## Inline
